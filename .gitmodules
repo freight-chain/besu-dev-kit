@@ -10,3 +10,9 @@
 [submodule "ethsigner"]
 	path = ethsigner
 	url = https://github.com/PegaSysEng/ethsigner.git
+[submodule "HyperledgerBesuGenerators"]
+	path = HyperledgerBesuGenerators
+	url = https://github.com/ericglau/HyperledgerBesuGenerators.git
+[submodule "create-eth-app"]
+	path = create-eth-app
+	url = https://github.com/PaulRBerg/create-eth-app.git

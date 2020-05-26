@@ -16,3 +16,6 @@
 [submodule "create-eth-app"]
 	path = create-eth-app
 	url = https://github.com/PaulRBerg/create-eth-app.git
+[submodule "Minimal-Solidity-Environment"]
+	path = Minimal-Solidity-Environment
+	url = https://github.com/Luiserebii/Minimal-Solidity-Environment.git

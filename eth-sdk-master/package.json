@@ -1,0 +1,31 @@
+{
+  "name": "eth-sdk",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Eth sdk",
+  "author": {
+    "name": "Stanislaw Glogowski",
+    "email": "hello@newobject.pl"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abridged/eth-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abridged/eth-sdk/issues"
+  },
+  "scripts": {
+    "lint": "lerna run --stream lint",
+    "bootstrap": "lerna bootstrap -- --no-package-lock",
+    "prebuild": "npm run bootstrap",
+    "build": "lerna run --stream build",
+    "precompile-watch": "npm run build",
+    "compile-watch": "lerna run --parallel compile-watch",
+    "test": "lerna run --stream test",
+    "publish": "npm run build && lerna version --no-push && lerna exec --stream --no-private --no-bail npm publish"
+  },
+  "dependencies": {
+    "lerna": "3.18.4"
+  }
+}

@@ -1,0 +1,12 @@
+[submodule "openzeppelin-contracts"]
+	path = openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts.git
+[submodule "web3js-eea"]
+	path = web3js-eea
+	url = https://github.com/PegaSysEng/web3js-eea.git
+[submodule "hyperledger-besu-ethers"]
+	path = hyperledger-besu-ethers
+	url = https://github.com/PegaSysEng/hyperledger-besu-ethers.git
+[submodule "ethsigner"]
+	path = ethsigner
+	url = https://github.com/PegaSysEng/ethsigner.git
